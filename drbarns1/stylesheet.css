@@ -1,0 +1,534 @@
+*{
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-height: 550vh;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(237, 229, 211);
+    /* background-color: #000; */
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    /* background-image:linear-gradient( rgba(26, 25, 25, 0.3),rgba(26, 25, 25, 0.3)),url(cart2.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+nav{
+    display: flex;
+    position: fixed; 
+    width: 100%;
+    align-items: center; 
+    padding: 0.4% 0 1%; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgb(31, 34, 33); 
+    box-shadow:5px 4px 10px 0 rgba(5, 5, 5, 0.616), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    text-decoration: none;
+    padding: 15px ;
+    font-weight: lighter;
+    font-size:1.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0.1%;
+}
+nav span{
+    color: #fff;
+    margin-bottom: 0.1rem;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 1rem;
+    font-size: 25px;
+    margin-right: 18rem;
+}
+.btn{
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right:0.5%;
+    margin-bottom: 0.1rem;
+    
+}
+.btn:hover{
+    color: #fff;
+    background-color: rgb(188, 8, 8);
+    border-radius: 7px;
+    font-weight: lighter;
+    transition: 1s;
+}
+.btn1{
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.1rem;
+}
+.btn2{
+    display: none;
+}
+.btn1:hover{
+    color: #fff;
+    background-color: rgb(188, 8, 8);
+    font-weight: lighter;
+    border-radius: 7px;
+    transition: 1s;
+}
+nav img{
+    width: 50px;
+    cursor: pointer;
+    margin-top: 0.3%;
+}
+.center{
+    background-color: #000;
+}
+.center p{
+    margin-bottom: 1.5rem;
+    text-align: left;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    font-weight: bolder;
+    color:rgb(222, 222, 191);
+    padding: 2% 80px; 
+}
+.ptag{
+    width: 69%;
+}
+.center h1{
+    text-align: left;
+    padding-top:10%; 
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5.6rem;
+    color: #fff;
+    font-weight: lighter;
+    padding-left: 7%;
+}
+.center span{
+    font-size: 5.6rem;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: lighter;
+}
+.center button{
+    padding: 4px 10px;
+    font-weight: lighter;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000; 
+    border: none;
+}
+.center button:hover{
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(29, 27, 27);
+    transition: 1s;
+}
+
+
+
+.containercolor{
+    background-color: black;
+    color: #fff;
+    border-bottom: 1px solid;
+}
+.partners{
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Fredoka One', cursive;
+    line-height: 4rem;
+    color: #000;
+    margin-top: 4rem;
+    font-weight: bold;
+}
+.partners span{
+    color:rgb(188, 8, 8);
+}
+.spotlight{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.spotlight p{
+    padding-top: 30px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 45px;
+}
+.spotlight img{
+    width: 360px;
+    height: 55vh;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    box-shadow:5px 4px 8px 0 rgba(5, 5, 5, 0.493), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{ 
+    align-items: center;
+} 
+
+.teamwork{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.teamwork p{
+    padding-top: 30px;
+    padding-right: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 45px;
+}
+.teamwork img{
+    width: 370px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    box-shadow:3px 4px 10px 0 rgba(5, 5, 5, 0.616), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tools{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.tools p{
+    padding-top: 30px;
+    padding-right: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 45px;
+}
+.tools img{
+    width: 350px;
+    height: 60vh;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    box-shadow:3px 4px 10px 0 rgba(5, 5, 5, 0.616), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sponsors p{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 12%;
+}
+.sponsors img{
+    margin-top: 4%;
+}
+.piggy{
+    width: 110px;
+    margin-left: 7%;
+}
+.wave{
+    width: 130px;
+    margin-left: 6rem;
+}
+.google{
+    width: 70px;
+    margin-left: 5rem;
+}
+.kuda{
+    width: 70px;
+    margin-left: 17%;
+}
+.flutter{
+    width: 70px;
+    margin-left: 5rem;
+}
+.payment{
+    margin-top: 11%;
+    display: flex;
+    justify-content: space-around;
+}
+.payment img{
+    width: 510px;
+}
+.payment p{
+    margin-top: 13%;
+    line-height: 2.6rem;
+    font-size: 2rem;
+}
+.best{
+    font-size: 1.3rem;
+}
+.best{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #000;
+    color: #fff;
+    padding: 1%;
+    border-radius: 10px;
+    width: 97%;
+    margin-left: 1.3%;
+    box-shadow:5px 4px 10px 0 rgba(5, 5, 5, 0.616), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ending{
+    margin-top: 7rem;
+    background-color: #000000;
+    padding: 100px;
+    width: 97%;
+    margin-left: 1.6%;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow:3px 4px 10px 0 rgba(5, 5, 5, 0.144), 5px 6px 20px 0 rgba(0, 0, 0, 0.621);
+}
+.ending h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.ending p{
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+}
+.ending button{
+    margin-top: 2rem;
+    padding: 12px 27px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: lighter;
+    border: none;
+}
+.ending button:hover{
+    background-color: rgb(188, 8, 8);
+    color: #fff;
+    transition: 1s;
+}
+.marketing{
+    margin-top: 15rem;
+    width: 1042px;
+    margin-left: 1.6%;
+    border-radius: 10px;
+    box-shadow:5px 4px 10px 0 rgba(5, 5, 5, 0.141), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* footer */
+.footer{
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    background-color:#000;
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: space-around;
+}
+.footer img{
+    width: 100px;
+}
+.footer1 img{
+    margin-top: 0.7rem;
+    width: 15px;
+}
+
+
+@media only screen and ( max-width:576px) and (min-width:375px){
+
+    nav{
+        /* padding-right: 60rem; */
+        /* position: fixed; */
+        width: 100%;
+        padding-left: 5rem;
+    }
+    nav span{
+        font-size: 2rem;
+        width: 70%;
+    }
+    nav img{
+        width: 10%;
+    }
+    ul{
+        display: none;
+        position: fixed;
+    }
+    .btn{
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
+    .btn2{
+        background-color: rgb(31, 34, 33);
+        display: grid;
+        color: #fff;
+        border: none;
+        font-size: 1.6rem;
+        margin-right: 17%;
+    }
+    ul{
+        padding: 2%;
+    }
+    .center h1{
+        font-size: 3rem;
+        padding-top: 22%;
+    }
+    .ptag{
+        width: 100%;
+    }
+    .center span{
+        font-size: 3rem;
+    }
+    .center p{
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-left: 8%;
+        font-weight: lighter;
+        word-spacing: 20%;
+    }
+    .center button{
+        padding: 2%;
+        font-size: 1rem;
+        background-color: #fff;
+        color: #000;
+        margin-top: 0.6%;
+        border-radius: 2%;
+    }
+    .shine{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .spotlight{
+        align-items: center;
+        text-align: center;
+    }
+    .spotlight p{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .spotlight img{
+        width: 270px;
+        height: 30vh;
+    }
+    .teamwork img{
+        width: 270px;
+        height: 30vh;
+    }
+    .teamwork p{
+        font-size: 3rem;
+    }
+    .teamwork{
+        margin-top: 13%;
+        display: block;
+        text-align: center;
+    }
+    .tools img{
+        width: 270px;
+        height: 30vh;
+    }
+    .tools p{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .tools{
+        margin-top: 13%;
+        align-items: center;
+        text-align: center;
+    }
+    .sponsors img{
+        width: 45px;
+        margin-left: 2.1rem;
+    }
+    .sponsors p{
+        font-size: 1.6rem;
+    }
+
+    .sponsors img{
+        width: 45px;
+        margin-left: 2.1rem;
+    }
+    .payment{
+        margin-top: 3rem;
+        margin-left: 5rem;
+        display: block;
+    }
+    .payment p{
+        font-size: 1.5rem;
+        margin-right: 1%;
+    }
+    .payment img{
+        width: 290px;
+      
+        align-items: center;
+    }
+    .sponsors{
+        width: 97%;
+    }
+    .sponsors.piggy{
+        width: 140px;
+        margin-left: 7%;
+    }
+    .wave{
+        width: 160px;
+        margin-left: 6rem;
+    }
+    .google{
+        width: 40px;
+        margin-left: 5rem;
+    }
+    .kuda{
+        width: 30px;
+        margin-left: 0;
+    }
+    .flutter{
+        width: 70px;
+        margin-left: 5rem;
+    }
+
+    .best{
+        font-size: 0.8rem;
+        border-radius: 5px;
+        width: 95%;
+        margin-top: 17%;
+        margin-left: 2.5%;
+    }
+    .ending{
+        padding: 5% 3%;
+        border-radius: 10px;
+        margin-left: 1.2%;
+    }
+    .ending p{
+        font-size: 1rem;
+    }
+    .ending h1{
+        font-size: 3rem;
+    }
+    .ending button{
+        font-size: 0.8rem;
+        padding: 2% ;
+        border-radius: 3%;
+        border: none;
+    }
+    .marketing{
+        width: 96%;
+        object-fit:contain;
+        border-radius: 7px;
+        margin-bottom: 0;
+        margin-top: 60%;
+        margin-left:0.7rem;
+    }
+    .footer .logo1{
+        width: 15%;
+    }
+    .footer{
+        width: 100%;
+        position: absolute;
+        flex-wrap: wrap;
+        font-size: 7px;
+        justify-content: space-around;
+        padding: 2%;
+        padding-bottom: 0;
+     }
+}
